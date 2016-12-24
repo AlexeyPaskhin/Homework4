@@ -1,0 +1,329 @@
+<html>
+<head>
+<title>TestNG:  test1</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>test1</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>9/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Dec 24 21:27:38 EET 2016</td>
+</tr>
+<tr><td>Total time:</td><td>86 seconds (86464 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Tests4.point1()'><b>point1</b><br>Test class: Tests4<br/>
+<a href="#Output-890545344" onClick='toggleBox("Output-890545344", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-890545344" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-890545344">
+Open main page<br><br/>
+Moving to HTTP://WWW.BING.COM/<br><br/>
+Check page title<br><br/>
+Page title is: Bing<br><br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>Tests4@5a39699c</td></tr>
+<tr>
+<td title='Tests4.point2and3()'><b>point2and3</b><br>Test class: Tests4<br/>
+<a href="#Output-2125062626" onClick='toggleBox("Output-2125062626", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2125062626" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2125062626">
+Window was maximized<br><br/>
+Поиск элемента By.cssSelector: #scpl1<br><br/>
+Элемент найден: By.cssSelector: #scpl1<br><br/>
+Clicking on element Изображения<br><br/>
+Click performed on [[ChromeDriver: chrome on XP (b9b9e82e7ad8b24f9f3382ffaa186c8c)] -> css selector: #scpl1]<br><br/>
+Waiting for loading page title<br><br/>
+Поиск элемента By.xpath: //*[@class= 'iuscp varh']<br><br/>
+Элемент найден: By.xpath: //*[@class= 'iuscp varh']<br><br/>
+Script window.scrollBy(0,2000) is executing<br><br/>
+window.scrollBy(0,2000) was executed<br><br/>
+Поиск элемента By.xpath: //*[@class= 'iuscp varh']<br><br/>
+Элемент найден: By.xpath: //*[@class= 'iuscp varh']<br><br/>
+Поиск элемента By.xpath: //*[@class= 'iuscp varh']<br><br/>
+Элемент найден: By.xpath: //*[@class= 'iuscp varh']<br><br/>
+Page was scrolled<br><br/>
+Поиск элемента By.xpath: //*[@class= 'iuscp varh']<br><br/>
+Элемент найден: By.xpath: //*[@class= 'iuscp varh']<br><br/>
+Script window.scrollBy(0,2000) is executing<br><br/>
+window.scrollBy(0,2000) was executed<br><br/>
+Поиск элемента By.xpath: //*[@class= 'iuscp varh']<br><br/>
+Элемент найден: By.xpath: //*[@class= 'iuscp varh']<br><br/>
+Поиск элемента By.xpath: //*[@class= 'iuscp varh']<br><br/>
+Элемент найден: By.xpath: //*[@class= 'iuscp varh']<br><br/>
+Поиск элемента By.xpath: //*[@class= 'iuscp varh']<br><br/>
+Элемент найден: By.xpath: //*[@class= 'iuscp varh']<br><br/>
+Page was scrolled<br><br/>
+Поиск элемента By.xpath: //*[@class= 'iuscp varh']<br><br/>
+Элемент найден: By.xpath: //*[@class= 'iuscp varh']<br><br/>
+Script window.scrollBy(0,2000) is executing<br><br/>
+window.scrollBy(0,2000) was executed<br><br/>
+Поиск элемента By.xpath: //*[@class= 'iuscp varh']<br><br/>
+Элемент найден: By.xpath: //*[@class= 'iuscp varh']<br><br/>
+Поиск элемента By.xpath: //*[@class= 'iuscp varh']<br><br/>
+Элемент найден: By.xpath: //*[@class= 'iuscp varh']<br><br/>
+Поиск элемента By.xpath: //*[@class= 'iuscp varh']<br><br/>
+Элемент найден: By.xpath: //*[@class= 'iuscp varh']<br><br/>
+Page was scrolled<br><br/>
+</div>
+</td>
+<td></td>
+<td>22</td>
+<td>Tests4@5a39699c</td></tr>
+<tr>
+<td title='Tests4.point4()'><b>point4</b><br>Test class: Tests4<br>Parameters: I love QATestLab<br/>
+<a href="#Output-416841088" onClick='toggleBox("Output-416841088", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-416841088" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-416841088">
+Searching using different parameters<br><br/>
+Поиск элемента By.cssSelector: #sb_form_q<br><br/>
+Элемент найден: By.cssSelector: #sb_form_q<br><br/>
+Script window.scrollTo(0,sb_form_q.offsetTop) is executing<br><br/>
+window.scrollTo(0,sb_form_q.offsetTop) was executed<br><br/>
+Changing the value of [[ChromeDriver: chrome on XP (b9b9e82e7ad8b24f9f3382ffaa186c8c)] -> css selector: #sb_form_q] to [Ljava.lang.CharSequence;@543588e6<br><br/>
+The value of [[ChromeDriver: chrome on XP (b9b9e82e7ad8b24f9f3382ffaa186c8c)] -> css selector: #sb_form_q] have changed to [Ljava.lang.CharSequence;@543588e6<br><br/>
+Поиск элемента By.id: sb_form_go<br><br/>
+Элемент найден: By.id: sb_form_go<br><br/>
+Clicking on element <br><br/>
+Click performed on [[ChromeDriver: chrome on XP (b9b9e82e7ad8b24f9f3382ffaa186c8c)] -> id: sb_form_go]<br><br/>
+Поиск элемента By.xpath: //*[@class='dg_u']<br><br/>
+Элемент найден: By.xpath: //*[@class='dg_u']<br><br/>
+Поиск элемента By.xpath: //*[@class='dg_u']<br><br/>
+Элемент найден: By.xpath: //*[@class='dg_u']<br><br/>
+Search was successful with the characters I love QATestLab<br><br/>
+Поиск элемента By.cssSelector: #sb_form_q<br><br/>
+Элемент найден: By.cssSelector: #sb_form_q<br><br/>
+Changing the value of [[ChromeDriver: chrome on XP (b9b9e82e7ad8b24f9f3382ffaa186c8c)] -> css selector: #sb_form_q] to null<br><br/>
+The value of [[ChromeDriver: chrome on XP (b9b9e82e7ad8b24f9f3382ffaa186c8c)] -> css selector: #sb_form_q] have changed to null<br><br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>Tests4@5a39699c</td></tr>
+<tr>
+<td title='Tests4.point4()'><b>point4</b><br>Test class: Tests4<br>Parameters: eeeee<br/>
+<a href="#Output-812553708" onClick='toggleBox("Output-812553708", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-812553708" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-812553708">
+Searching using different parameters<br><br/>
+Поиск элемента By.cssSelector: #sb_form_q<br><br/>
+Элемент найден: By.cssSelector: #sb_form_q<br><br/>
+Script window.scrollTo(0,sb_form_q.offsetTop) is executing<br><br/>
+window.scrollTo(0,sb_form_q.offsetTop) was executed<br><br/>
+Changing the value of [[ChromeDriver: chrome on XP (b9b9e82e7ad8b24f9f3382ffaa186c8c)] -> css selector: #sb_form_q] to [Ljava.lang.CharSequence;@4f2b503c<br><br/>
+The value of [[ChromeDriver: chrome on XP (b9b9e82e7ad8b24f9f3382ffaa186c8c)] -> css selector: #sb_form_q] have changed to [Ljava.lang.CharSequence;@4f2b503c<br><br/>
+Поиск элемента By.id: sb_form_go<br><br/>
+Элемент найден: By.id: sb_form_go<br><br/>
+Clicking on element <br><br/>
+Click performed on [[ChromeDriver: chrome on XP (b9b9e82e7ad8b24f9f3382ffaa186c8c)] -> id: sb_form_go]<br><br/>
+Поиск элемента By.xpath: //*[@class='dg_u']<br><br/>
+Элемент найден: By.xpath: //*[@class='dg_u']<br><br/>
+Поиск элемента By.xpath: //*[@class='dg_u']<br><br/>
+Элемент найден: By.xpath: //*[@class='dg_u']<br><br/>
+Search was successful with the characters eeeee<br><br/>
+Поиск элемента By.cssSelector: #sb_form_q<br><br/>
+Элемент найден: By.cssSelector: #sb_form_q<br><br/>
+Changing the value of [[ChromeDriver: chrome on XP (b9b9e82e7ad8b24f9f3382ffaa186c8c)] -> css selector: #sb_form_q] to null<br><br/>
+The value of [[ChromeDriver: chrome on XP (b9b9e82e7ad8b24f9f3382ffaa186c8c)] -> css selector: #sb_form_q] have changed to null<br><br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>Tests4@5a39699c</td></tr>
+<tr>
+<td title='Tests4.point4()'><b>point4</b><br>Test class: Tests4<br>Parameters: roock<br/>
+<a href="#Output-875313400" onClick='toggleBox("Output-875313400", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-875313400" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-875313400">
+Searching using different parameters<br><br/>
+Поиск элемента By.cssSelector: #sb_form_q<br><br/>
+Элемент найден: By.cssSelector: #sb_form_q<br><br/>
+Script window.scrollTo(0,sb_form_q.offsetTop) is executing<br><br/>
+window.scrollTo(0,sb_form_q.offsetTop) was executed<br><br/>
+Changing the value of [[ChromeDriver: chrome on XP (b9b9e82e7ad8b24f9f3382ffaa186c8c)] -> css selector: #sb_form_q] to [Ljava.lang.CharSequence;@485966cc<br><br/>
+The value of [[ChromeDriver: chrome on XP (b9b9e82e7ad8b24f9f3382ffaa186c8c)] -> css selector: #sb_form_q] have changed to [Ljava.lang.CharSequence;@485966cc<br><br/>
+Поиск элемента By.id: sb_form_go<br><br/>
+Элемент найден: By.id: sb_form_go<br><br/>
+Clicking on element <br><br/>
+Click performed on [[ChromeDriver: chrome on XP (b9b9e82e7ad8b24f9f3382ffaa186c8c)] -> id: sb_form_go]<br><br/>
+Поиск элемента By.xpath: //*[@class='dg_u']<br><br/>
+Элемент найден: By.xpath: //*[@class='dg_u']<br><br/>
+Поиск элемента By.xpath: //*[@class='dg_u']<br><br/>
+Элемент найден: By.xpath: //*[@class='dg_u']<br><br/>
+Search was successful with the characters roock<br><br/>
+Поиск элемента By.cssSelector: #sb_form_q<br><br/>
+Элемент найден: By.cssSelector: #sb_form_q<br><br/>
+Changing the value of [[ChromeDriver: chrome on XP (b9b9e82e7ad8b24f9f3382ffaa186c8c)] -> css selector: #sb_form_q] to null<br><br/>
+The value of [[ChromeDriver: chrome on XP (b9b9e82e7ad8b24f9f3382ffaa186c8c)] -> css selector: #sb_form_q] have changed to null<br><br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>Tests4@5a39699c</td></tr>
+<tr>
+<td title='Tests4.point4()'><b>point4</b><br>Test class: Tests4<br>Parameters: вареники<br/>
+<a href="#Output-671471369" onClick='toggleBox("Output-671471369", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-671471369" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-671471369">
+Searching using different parameters<br><br/>
+Поиск элемента By.cssSelector: #sb_form_q<br><br/>
+Элемент найден: By.cssSelector: #sb_form_q<br><br/>
+Script window.scrollTo(0,sb_form_q.offsetTop) is executing<br><br/>
+window.scrollTo(0,sb_form_q.offsetTop) was executed<br><br/>
+Changing the value of [[ChromeDriver: chrome on XP (b9b9e82e7ad8b24f9f3382ffaa186c8c)] -> css selector: #sb_form_q] to [Ljava.lang.CharSequence;@3a44431a<br><br/>
+The value of [[ChromeDriver: chrome on XP (b9b9e82e7ad8b24f9f3382ffaa186c8c)] -> css selector: #sb_form_q] have changed to [Ljava.lang.CharSequence;@3a44431a<br><br/>
+Поиск элемента By.id: sb_form_go<br><br/>
+Элемент найден: By.id: sb_form_go<br><br/>
+Clicking on element <br><br/>
+Click performed on [[ChromeDriver: chrome on XP (b9b9e82e7ad8b24f9f3382ffaa186c8c)] -> id: sb_form_go]<br><br/>
+Поиск элемента By.xpath: //*[@class='dg_u']<br><br/>
+Элемент найден: By.xpath: //*[@class='dg_u']<br><br/>
+Поиск элемента By.xpath: //*[@class='dg_u']<br><br/>
+Элемент найден: By.xpath: //*[@class='dg_u']<br><br/>
+Search was successful with the characters вареники<br><br/>
+Поиск элемента By.cssSelector: #sb_form_q<br><br/>
+Элемент найден: By.cssSelector: #sb_form_q<br><br/>
+Changing the value of [[ChromeDriver: chrome on XP (b9b9e82e7ad8b24f9f3382ffaa186c8c)] -> css selector: #sb_form_q] to null<br><br/>
+The value of [[ChromeDriver: chrome on XP (b9b9e82e7ad8b24f9f3382ffaa186c8c)] -> css selector: #sb_form_q] have changed to null<br><br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>Tests4@5a39699c</td></tr>
+<tr>
+<td title='Tests4.point5()'><b>point5</b><br>Test class: Tests4<br/>
+<a href="#Output-1678046232" onClick='toggleBox("Output-1678046232", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1678046232" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1678046232">
+Поиск элемента By.xpath: (//div[@class='dg_u'])[1]<br><br/>
+Элемент найден: By.xpath: (//div[@class='dg_u'])[1]<br><br/>
+Поиск элемента By.className: irhc<br><br/>
+Элемент найден: By.className: irhc<br><br/>
+Checking of presence of elements<br><br/>
+Поиск элемента By.className: irhc<br><br/>
+Элемент найден: By.className: irhc<br><br/>
+Поиск элемента By.xpath: //*[@title='Сохранить это изображение']<br><br/>
+Элемент найден: By.xpath: //*[@title='Сохранить это изображение']<br><br/>
+Поиск элемента By.xpath: //*[@title='Поиск по изображению']<br><br/>
+Элемент найден: By.xpath: //*[@title='Поиск по изображению']<br><br/>
+Поиск элемента By.xpath: //*[@title='Пометить как изображение для взрослых']<br><br/>
+Элемент найден: By.xpath: //*[@title='Пометить как изображение для взрослых']<br><br/>
+All elements appeared after hovering over the image<br><br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>Tests4@5a39699c</td></tr>
+<tr>
+<td title='Tests4.point6()'><b>point6</b><br>Test class: Tests4<br/>
+<a href="#Output-70323523" onClick='toggleBox("Output-70323523", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-70323523" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-70323523">
+Поиск элемента By.xpath: //*[@title='Поиск по изображению']<br><br/>
+Элемент найден: By.xpath: //*[@title='Поиск по изображению']<br><br/>
+Clicking on element <br><br/>
+Click performed on [[ChromeDriver: chrome on XP (b9b9e82e7ad8b24f9f3382ffaa186c8c)] -> xpath: //*[@title='Поиск по изображению']]<br><br/>
+Поиск элемента By.xpath: //*[@id='detail_canvas']<br><br/>
+Элемент найден: By.xpath: //*[@id='detail_canvas']<br><br/>
+Поиск элемента By.className: closebutton<br><br/>
+Элемент найден: By.className: closebutton<br><br/>
+Closebutton is present at the page of slide show<br><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>Tests4@5a39699c</td></tr>
+<tr>
+<td title='Tests4.point7()'><b>point7</b><br>Test class: Tests4<br>Parameters: 6<br/>
+<a href="#Output-227755469" onClick='toggleBox("Output-227755469", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-227755469" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-227755469">
+Поиск элемента By.xpath: //*[text()='Смотреть другие изображения']<br><br/>
+Элемент найден: By.xpath: //*[text()='Смотреть другие изображения']<br><br/>
+Clicking on element Смотреть другие изображения<br><br/>
+Click performed on [[ChromeDriver: chrome on XP (b9b9e82e7ad8b24f9f3382ffaa186c8c)] -> xpath: //*[text()='Смотреть другие изображения']]<br><br/>
+Поиск элемента By.xpath: //*[@class='iuscp varh']<br><br/>
+Элемент найден: By.xpath: //*[@class='iuscp varh']<br><br/>
+Images were loaded<br><br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>Tests4@5a39699c</td></tr>
+</table><p>
+</body>
+</html>

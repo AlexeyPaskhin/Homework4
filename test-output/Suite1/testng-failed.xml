@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]">
+  <parameter name="minNumberOfImages" value="6"/>
+  <test name="test1(failed)">
+    <parameter name="minNumberOfImages" value="6"/>
+    <classes>
+      <class name="Tests4">
+        <methods>
+          <include name="preparation"/>
+          <include name="point2and3"/>
+          <include name="point7"/>
+          <include name="point6"/>
+          <include name="point5"/>
+          <include name="point4"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Tests4 -->
+    </classes>
+  </test> <!-- test1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
